@@ -1,0 +1,34 @@
+{
+  "name": "@xujoda/ssptr_lib_tablo_component",
+  "repository": "git://github.com/xujoda/ssptr_lib_tablo_component",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "peerDependencies": {
+    "@angular/common": "^14.1.0",
+    "@angular/core": "^14.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/ssptr-lib-tablo-component.mjs",
+  "es2020": "fesm2020/ssptr-lib-tablo-component.mjs",
+  "esm2020": "esm2020/ssptr-lib-tablo-component.mjs",
+  "fesm2020": "fesm2020/ssptr-lib-tablo-component.mjs",
+  "fesm2015": "fesm2015/ssptr-lib-tablo-component.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ssptr-lib-tablo-component.mjs",
+      "es2020": "./fesm2020/ssptr-lib-tablo-component.mjs",
+      "es2015": "./fesm2015/ssptr-lib-tablo-component.mjs",
+      "node": "./fesm2015/ssptr-lib-tablo-component.mjs",
+      "default": "./fesm2020/ssptr-lib-tablo-component.mjs"
+    }
+  },
+  "sideEffects": false
+}
